@@ -1,4 +1,4 @@
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { DefaultLayout } from './layouts/DefautLayout';
 import { History } from './pages/History';
 import { Home } from './pages/Home';
@@ -11,5 +11,5 @@ export function Router() {
 				<Route path="/history" element={<History/>}/>
 			</Route>
 		</Routes>
-	);
+	); 
 }
